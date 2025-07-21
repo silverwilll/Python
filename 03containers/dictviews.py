@@ -1,5 +1,5 @@
 people = {
-    "BoB": 25,
+    "Bob": 25,
     "Sue": 30,
     "Steve": 35,
 }
@@ -12,4 +12,9 @@ print(type(keys))
 print(type(values))
 print(type(items))
 
+item_list = list(items)
+
 print(items)
+del people["Steve"]
+print(items)
+print(item_list)
