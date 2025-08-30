@@ -8,5 +8,5 @@ print(df)
 print(df.loc["Mon":"Sun":2])
 print(df.loc[["Fri", "Mon"], "Puashup":"Squats"])
 print(df.loc[:, "Puashup":"Squats"])
-
+print()
 print(df.iloc[:, 1:3])
